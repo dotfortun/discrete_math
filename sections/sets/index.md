@@ -4,6 +4,3 @@
   - Functions
   - Relations
   - Operations
-- Formal Logic
-  - Statements
-  - Some useful tools
