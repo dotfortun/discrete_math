@@ -1,4 +1,4 @@
-# Discrete Math for Bootcamps
+# Discrete Math for Coding Bootcamps
 
 ## A quick overview
 
