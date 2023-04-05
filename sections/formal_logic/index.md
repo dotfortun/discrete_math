@@ -83,6 +83,9 @@ So, we've got the basic concepts, not let's look at truth tables for each connec
 - Dogs are awesome = $D$
 
 ### AND
+`And` is only `true` when both the left and right sides are `true`.
+
+Example:
 - `Cats are awesome and dogs are awesome`
 - $C \wedge D$
 
@@ -94,6 +97,9 @@ So, we've got the basic concepts, not let's look at truth tables for each connec
 |  F  |  F  |      F       |
 
 ### OR
+`Or` is `true` when either the left or the right side is `true`.
+
+Example:
 - `Cats are awesome or dogs are awesome`
 - $C \cap D$
 
@@ -105,6 +111,9 @@ So, we've got the basic concepts, not let's look at truth tables for each connec
 |  F  |  F  |     F      |
 
 ### NOT
+`Not` inverts a value.
+
+Example:
 - `Cats are not awesome` ☹️
 - $\neg C$
 
@@ -114,6 +123,9 @@ So, we've got the basic concepts, not let's look at truth tables for each connec
 |  F  |    T     |
 
 ### If $\rightarrow$ Then
+`If ... then` is only false if the left side of the operator is `true` and the right side is `false`.  You can rephrase this as "if $X$ is true, then $Y$ must be true".  This one is a little tricky, because `if ... then` is always `true` if the lefthand side is `false`.
+
+Example:
 - `If cats are awesome then dogs are awesome`
 - $C \rightarrow D$
 
@@ -124,7 +136,10 @@ So, we've got the basic concepts, not let's look at truth tables for each connec
 |  F  |  T  |         T         |
 |  F  |  F  |         T         |
 
-### If $\leftrightarrow$ Then (Iff, If and only if)
+### If $\leftrightarrow$ Then (If and only if)
+This is the stricter version of `if ... then`: this is only `true` if both sides match.  You can also write this statement in shorthand as `Iff ... then`, but at the cost of everyone telling you that you made a typo.
+
+Example:
 - `If and only if cats are awesome, then dogs are awesome`
 - $C \leftrightarrow D$
 
