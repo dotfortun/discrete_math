@@ -43,7 +43,7 @@ We can show all the possible outcomes of a statement with a truth table.  For ex
 | T   |
 | F   |
 
-And the truth table for `Cats are awesome and dogs are awesome` would be:
+Adding in some complexity, the truth table for `Cats are awesome and dogs are awesome` would be:
 
 | $C$ | $D$ | $C \wedge D$ |
 | :-: | :-: | :----------: |
@@ -52,7 +52,7 @@ And the truth table for `Cats are awesome and dogs are awesome` would be:
 |  F  |  T  |      F       |
 |  F  |  F  |      F       |
 
-There are a couple of things to note about this, the first being that the second table appears to be twice as long as the first table.  Since the first table has 2 rows, and the second has 4 rows, the next table is definitely going to be larger, but how much larger?  Let's make some guesses:
+It's worth noting that the second table is longer than first table.  Since the first table has 2 rows, and the second has 4 rows, the next table is definitely going to be larger, but how much larger?  Let's make some guesses:
 
 - Guess 1:
   - Truth tables grow at 2 rows per variable.
@@ -61,9 +61,9 @@ There are a couple of things to note about this, the first being that the second
 
 ----
 
-We can validate our guess by making a truth table to cover all the possibilities of the statement `Cats are awesome and dogs are awesome and people are awesome`, which has 3 variables:
+We can validate our guess by making a truth table to cover all the possibilities of the statement `Cats are awesome and dogs are awesome and bats are awesome`, which has 3 variables:
 
-| $C$ | $D$ | $C \wedge D$ | $P$ | $C \wedge D \wedge P$ |
+| $C$ | $D$ | $(C \wedge D)$ | $B$ | $(C \wedge D) \wedge B$ |
 | :-: | :-: | :----------: | :-: | :-------------------: |
 |  T  |  T  |      T       |  T  |           T           |
 |  T  |  T  |      T       |  F  |           F           |
