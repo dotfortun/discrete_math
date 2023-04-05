@@ -2,7 +2,7 @@
 
 ## A quick overview
 
-The purpose of this series of tutorials is to give a high-level overview of some of the mathematics that you will find in this field.  As such, there will be additional resources linked in each lesson.
+These are the collected notes for a series of tutorials intended to give a high-level overview of some of the mathematics that you will find in this field.
 
 Additionally, here are some additional resources to get more practice with some of these concepts:
 
