@@ -76,7 +76,7 @@ We can validate our guess by making a truth table to cover all the possibilities
 
 Since this table has 8 rows, it looks like the length of a truth table doubles for every new variable we add.
 
-## Connectives
+## Truth Tables
 
 So, we've got the basic concepts, not let's look at truth tables for each connective!  We're going to use the following variables for each statement:
 - Cats are awesome = $C$
@@ -135,3 +135,5 @@ So, we've got the basic concepts, not let's look at truth tables for each connec
 |  F  |  T  |           F           |
 |  F  |  F  |           T           |
 
+----
+[Index](/README.md#sections)
