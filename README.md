@@ -9,9 +9,10 @@ Additionally, here are some additional resources to get more practice with some 
 - **TO BE ADDED**
 
 ## Sections
-- [Formal Logic](/sections/formal_logic/index.md)
-  - [Truth Table Reference](/sections/formal_logic/index.md#truth-tables)
-  - Useful Logical Tools
+- [Formal Logic](/sections/formal_logic/001_index.md)
+  - [Truth Table Reference](/sections/formal_logic/001_index.md#truth-tables)
+  - [Equivalence](/sections/formal_logic/002_%20equivalence.md)
+  - [Useful equivalences](/sections/formal_logic/002_%20equivalence.md#useful-logical-equivalences)
 - [Sets](/sections/sets_and_logic/index.md)
   - Sets
   - Functions
@@ -27,3 +28,4 @@ Additionally, here are some additional resources to get more practice with some 
   - Graphs
   - Trees
   - What you can do with these
+

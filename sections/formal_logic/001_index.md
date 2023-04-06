@@ -151,4 +151,4 @@ Example:
 |  F  |  F  |           T           |
 
 ----
-[Index](/README.md#sections) | [Next](/sections/formal_logic/equivalence.md)
+[Index](/README.md#sections) | [Next](/sections/formal_logic/002_equivalence.md)
