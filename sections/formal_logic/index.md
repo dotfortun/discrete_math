@@ -61,18 +61,18 @@ It's worth noting that the second table is longer than first table.  Since the f
 
 ----
 
-We can validate our guess by making a truth table to cover all the possibilities of the statement `Cats are awesome and dogs are awesome and bats are awesome`, which has 3 variables:
+We can validate our guess by making a truth table to cover all the possibilities of the statement `Cats are awesome and dogs are awesome and bats are awesome` (seriously, bats are awesome and [adorable](https://upload.wikimedia.org/wikipedia/commons/b/b4/Bat_Week_2017_-_Congressional_Reception_%2837237943654%29_%28cropped%29.jpg)), which has 3 variables:
 
 | $C$ | $D$ | $(C \wedge D)$ | $B$ | $(C \wedge D) \wedge B$ |
-| :-: | :-: | :----------: | :-: | :-------------------: |
-|  T  |  T  |      T       |  T  |           T           |
-|  T  |  T  |      T       |  F  |           F           |
-|  T  |  F  |      F       |  T  |           F           |
-|  T  |  F  |      F       |  F  |           F           |
-|  F  |  T  |      F       |  T  |           F           |
-|  F  |  T  |      F       |  F  |           F           |
-|  F  |  F  |      F       |  T  |           F           |
-|  F  |  F  |      F       |  F  |           F           |
+| :-: | :-: | :------------: | :-: | :---------------------: |
+|  T  |  T  |       T        |  T  |            T            |
+|  T  |  T  |       T        |  F  |            F            |
+|  T  |  F  |       F        |  T  |            F            |
+|  T  |  F  |       F        |  F  |            F            |
+|  F  |  T  |       F        |  T  |            F            |
+|  F  |  T  |       F        |  F  |            F            |
+|  F  |  F  |       F        |  T  |            F            |
+|  F  |  F  |       F        |  F  |            F            |
 
 Since this table has 8 rows, it looks like the length of a truth table doubles for every new variable we add.
 
@@ -151,4 +151,4 @@ Example:
 |  F  |  F  |           T           |
 
 ----
-[Index](/README.md#sections)
+[Index](/README.md#sections) | [Next](/sections/formal_logic/equivalence.md)
