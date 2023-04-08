@@ -69,10 +69,10 @@ p = True
 q = True
 
 if p and q:
-    print("P and Q is True")
+    print("P ∧ Q is True")
 
 if q and p:
-    print("Q and P is True")
+    print("Q ∧ P is True")
 
 if p or q:
     print("P ∩ Q is True")
@@ -87,10 +87,10 @@ let p = true;
 let q = true;
 
 if (p && q) {
-    console.log("P and Q is True");
+    console.log("P ∧ Q is True");
 }
 if (q && p) {
-    console.log("Q and P is True");
+    console.log("Q ∧ P is True");
 }
 if (p || q) {
     console.log("P ∩ Q is True");
